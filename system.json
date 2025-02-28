@@ -1,13 +1,16 @@
 {
   "id": "cy-borg",
-  "title": "CY_BORG",
-  "description": "Foundry VTT system for CY_BORG.",
+  "title": "CY_BORG (iangus-dev)",
+  "description": "Foundry VTT system for CY_BORG. (Modified by iangus)",
   "version": "3.0.0",
   "templateVersion": 2,
   "authors": [
     {
       "name": "mcglintlock"
-    }    
+    },
+    {
+      "name": "iangus"
+    }
   ],
   "esmodules": ["module/cy-borg.js"],
   "styles": ["css/cy-borg.css"],
@@ -78,7 +81,5 @@
     "minimum": "12",
     "verified": "12"
   },  
-  "url": "https://github.com/fvtt-fria-ligan/cyborg-foundry-vtt",
-  "manifest": "https://github.com/fvtt-fria-ligan/cyborg-foundry-vtt/releases/latest/download/system.json",
-  "download": "https://github.com/fvtt-fria-ligan/cyborg-foundry-vtt/releases/latest/download/system.zip"
+  "url": "https://github.com/iangus/cyborg-foundry-vtt"
 }
