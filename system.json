@@ -21,6 +21,11 @@
       "path": "lang/en.json"
     }
   ],
+  "documentTypes": {
+    "Combat": {
+      "cy": {}
+    }
+  },
   "packFolders": [
     {
       "name": "CY_BORG",
@@ -33,7 +38,7 @@
         "cyborg-tables"
       ]
     }
-  ],   
+  ],
   "packs": [
     {
       "name": "cyborg-actors",
@@ -41,7 +46,7 @@
       "system": "cy-borg",
       "path": "./packs/cyborg-actors",
       "type": "Actor"
-    },  
+    },
     {
       "name": "cyborg-items",
       "label": "CY_BORG (Items)",
@@ -70,7 +75,7 @@
       "path": "./packs/cyborg-tables",
       "type": "RollTable"
     }
-  ],  
+  ],
   "socket": true,
   "initiative": "1d6",
   "gridDistance": 10,
@@ -80,6 +85,6 @@
   "compatibility": {
     "minimum": "12",
     "verified": "12"
-  },  
+  },
   "url": "https://github.com/iangus/cyborg-foundry-vtt"
 }
